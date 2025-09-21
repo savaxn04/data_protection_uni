@@ -4,8 +4,6 @@ Small study repository with two modules:
 - **Enigma-like encoder/decoder** (incremental Caesar + 3 fixed rotors)
 - **Caesar shift cracker** using **letter-frequency analysis** (keeps case; non-letters unchanged)
 
-> In the future you can add more methods (Vigenère, Playfair, etc.).
-
 ---
 
 ## Repository structure
