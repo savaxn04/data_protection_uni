@@ -29,13 +29,13 @@ def enigma_machine(encode: bool, start: int, rotors: Iterable[str], text: str) -
     return result
 
 if __name__ == "__main__":
-    operation = input()
-    pseudo_random_number = int(input())
+    operation = input("operation: ")
+    pseudo_random_number = int(input("pseudo random number: "))
 
-    rotor_1 = input()
-    rotor_2 = input()
-    rotor_3 = input()
-    message = input().strip().upper()
+    rotor_1 = input("rotor_1: ")
+    rotor_2 = input("rotor_2: ")
+    rotor_3 = input("rotor_3: ")
+    message = input("message: ").strip().upper()
 
     result = enigma_machine(
         encode=(operation == "ENCODE"),
