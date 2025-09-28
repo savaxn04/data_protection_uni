@@ -46,7 +46,7 @@ def decode_with_shift(ciphertext: str, shift: int) -> str:
 
 
 if __name__ == "__main__":
-    message = input()
+    message = input("message: ")
     shift = best_shift(ciphertext=message)
     result = decode_with_shift(ciphertext=message, shift=shift)
     print(result)
